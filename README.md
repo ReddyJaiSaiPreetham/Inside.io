@@ -120,13 +120,10 @@ cad-viewer/
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.
 
 ---
 
-### 🌟 Feel free to contribute & improve this project!
-```
+
 
 ---
 
