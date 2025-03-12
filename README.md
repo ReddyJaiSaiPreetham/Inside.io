@@ -9,7 +9,7 @@ A full-stack **CAD Viewer** that allows users to upload and visualize **3D CAD m
 Built using **React Three Fiber** for 3D rendering and **Flask** as the backend for file uploads.
 
 ## 🚀 Features
-- **Upload CAD models** (GLB, OBJ, etc.)
+- **Upload CAD models** (STL, OBJ, etc.)
 - **View & interact** with models in 3D
 - **Orbit, zoom, and pan controls**
 - **Fast & responsive UI** using Tailwind CSS
@@ -42,7 +42,7 @@ The server will run at `http://127.0.0.1:5000/`.
 ### 3️⃣ Setup & Run the **Frontend** (React)
 #### 📌 Install dependencies
 ```sh
-cd ../frontend
+cd ../cad-viewer
 npm install
 ```
 #### 📌 Start the React development server
@@ -60,7 +60,7 @@ cad-viewer/
 │   ├── uploads/           # Uploaded CAD models
 │   ├── app.py             # Flask server
 │   ├── requirements.txt   # Python dependencies
-│── frontend/              # React App
+│── cad-viewer/              # React App
 │   ├── src/
 │   │   ├── components/    # 3D components
 │   │   ├── styles/        # Tailwind CSS styles
