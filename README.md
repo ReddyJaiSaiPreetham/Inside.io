@@ -56,10 +56,10 @@ The React app runs on `http://localhost:3000/`.
 ## 📂 Project Structure
 ```
 cad-viewer/
-│── backend/               # Flask API
-│   ├── uploads/           # Uploaded CAD models
-│   ├── app.py             # Flask server
-│   ├── requirements.txt   # Python dependencies
+│            # Flask API
+│├── uploads/           # Uploaded CAD models
+│├── app.py             # Flask server
+│├── requirements.txt   # Python dependencies
 │── cad-viewer/              # React App
 │   ├── src/
 │   │   ├── components/    # 3D components
